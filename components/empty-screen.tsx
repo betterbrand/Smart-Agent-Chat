@@ -23,6 +23,9 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
   return (
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
+          
+        {/* <img src="https://raw.githubusercontent.com/betterbrand/betterbrand.github.io/5f69880be6d48b476a915f747597e17a9727beb7/pub_img/SmartAgentSquare.jpg" alt="Chat-Web3" border="0" height="512" width="512" className="w-1/2 mx-auto mb-4" />  */}
+
         <h1 className="mb-2 text-lg font-semibold">
           Welcome to ChatWeb3!
         </h1>
