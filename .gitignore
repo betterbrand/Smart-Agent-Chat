@@ -37,3 +37,8 @@ yarn-error.log*
 .vercel
 .vscode
 .env*.local
+
+
+# Swap file
+*.swp
+.swp
