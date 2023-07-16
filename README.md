@@ -1,7 +1,10 @@
 <a href="https://chat.vercel.ai/">
-  <img alt="Next.js 13 and app template Router-ready AI chatbot." src="https://raw.githubusercontent.com/betterbrand/betterbrand.github.io/5f69880be6d48b476a915f747597e17a9727beb7/pub_img/SmartAgentSquare.jpg">
+  <p align='center'>
+  <img alt="Next.js 13 and app template Router-ready AI chatbot." width="512" height="512" src="https://raw.githubusercontent.com/betterbrand/betterbrand.github.io/5f69880be6d48b476a915f747597e17a9727beb7/pub_img/SmartAgentSquare.jpg">
+  </p>
   <h1 align="center">Smart Agent Chatbot</h1>
 </a>
+
 
 <p align="center">
   An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV.
@@ -32,14 +35,6 @@
 ## Model Providers
 
 This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks to the [Vercel AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Anthropic](https://anthropic.com), [Hugging Face](https://huggingface.co), or using [LangChain](https://js.langchain.com) with just a few lines of code.
-
-
-## Creating a KV Database Instance
-
-Follow the steps outlined in the [quick start guide](https://vercel.com/docs/storage/vercel-kv/quickstart#create-a-kv-database) provided by Vercel. This guide will assist you in creating and configuring your KV database instance on Vercel, enabling your application to interact with it.
-
-Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
-
 
 ## Running locally
 
